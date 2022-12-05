@@ -14,7 +14,7 @@ async function bootstrap() {
     credentials: true,
     origin: [
       'http://localhost:3000',
-      'http://todo-nextjs-silk.vercel.app',
+      'https://todo-nextjs-silk.vercel.app',
   ],
   })
   app.use(cookieParser())
